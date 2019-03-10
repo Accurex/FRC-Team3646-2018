@@ -169,7 +169,7 @@ public class Robot extends IterativeRobot {
 		case 5:
 			if (DriverStation.getInstance().getGameSpecificMessage().charAt(1) == 'R' && 
 					DriverStation.getInstance().getGameSpecificMessage().charAt(0) == 'R')
-				ebeninAmiAuto();
+				uselessAuto();
 			else if (DriverStation.getInstance().getGameSpecificMessage().charAt(1) == 'R')
 				scaleRightAutoGyro();
 			else {
@@ -1458,7 +1458,7 @@ public class Robot extends IterativeRobot {
 		
 	}
 
-	private void ebeninAmiAuto() {
+	private void uselessAuto() {
 		Timer t = new Timer();
 		t.reset();
 		
